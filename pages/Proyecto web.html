@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/proyecto_web.css">
+    <title>POKÉDEX</title>
+</head>
+<body>    
+
+    <header class="header">
+        <img id="logo" src="../src/pokedeex.png" alt="logo">
+    </header>
+
+    <!---Barra de navegación-->
+    <nav>
+        <ul class="nav">
+            <li class="items-nav">
+                <a class="items-menu nav-link btn-neon" href="../Portafolio.html">
+                    <span id="span1"></span>
+                    INICIO
+                </a>
+            </li>
+            <li class="items-nav">
+                <a class="items-menu nav-link btn-neon2" href="../index.html">
+                    PÁGINAS
+                </a>
+            </li>
+            <li class="items-nav">
+                <a class="items-menu nav-link btn-neon3" href="#">
+                    ACERCA
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <!---Cierre de barra de navegación-->
+
+    <p class="parrafo">Escriba un número o nombre del Pokemón que busca:</p>
+
+    <form action="/" onsubmit="searchPokemon(event)">
+    <input type="text" name="pokemon" autocomplete="off">
+    </form>
+    <div data-poke-card class="poke-card">
+        <div data-poke-name>Pokemón</div>
+        <div data-poke-img-container class="img-container">
+            <img data-poke-img class="poke-img" src="../src/pika.jpg" alt="Pokemon">
+        </div>
+        <div data-poke-id></div>
+        <div data-poke-types class="poke-types"></div>
+        <div data-poke-stats class="poke-stats"></div>
+    </div>
+    <script src="../JS/Proyecto web api.js"></script>
+</body>
+</html>

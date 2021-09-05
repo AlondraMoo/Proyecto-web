@@ -1,0 +1,76 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ }
+ 
+ .main{
+  display: flex;
+ }
+ 
+ .lado_izq{
+  background-color: rgb(255, 108, 206);
+  width: 50vw;
+  height: 100vh;
+ }
+ 
+ .header{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+ }
+ 
+ .Titulo{
+  text-align: center;
+  font-size: 70px;
+  font-variant: small-caps; 
+   text-transform: uppercase 5px 5px 5px;
+ }
+ 
+ .subtitulo{
+  text-align: center;
+  font-size: 35px;
+  font-family: 'VT323', monospace;
+ }
+ 
+ .nombre{
+  text-align: center;
+  font-family: 'Nixie One', cursive;
+  text-shadow: 5px 5px 5px #000000;
+ }
+ 
+ .lado_der{
+  width: 50vw;
+  height: 100vh;
+ }
+ 
+ .uno{
+  font-size: 20px;
+  color: white;
+  text-align: center;
+ }
+ 
+ 
+ summary{
+  font-variant: small-caps; 
+  font-size: 50px;
+  text-shadow: 5px 5px 5px #080808;
+ }
+ 
+ .ul{
+  list-style-type: none;
+ }
+ 
+ a {
+  font-size: 38px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+ }
+ 
+ .imagen {
+  width: 350px;
+  height: 210px;
+  padding-top: 0px;
+  margin: 0px auto;
+ }
